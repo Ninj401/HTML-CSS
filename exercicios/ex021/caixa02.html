@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gruping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(110, 101, 89);
+            margin: 0px;
+        }
+
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 5px;
+        }
+
+        nav {
+            background-color: lightgray;
+            padding: 2px;
+            box-shadow: 1px 1px 1px black;
+        }
+        
+        nav > a {
+            color: rgb(218, 85, 85);
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: blueviolet;
+        }
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: aqua;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: blue;
+            color: aliceblue;
+        }
+
+        footer {
+            background-color: black; 
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>seila</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea veniam ducimus, qui omnis fuga consequuntur fugit velit quod maiores ad nemo commodi facilis inventore assumenda magni sapiente quibusdam optio saepe.</p>
+                <aside>feito por mim</aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desemvolvido por mim</p>
+    </footer>
+</body>
+</html>

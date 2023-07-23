@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>picture</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em vários sites diferentes ou diminua e almente o tamanho do navegador</p>
+
+    <picture>
+        
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem flexivel" >
+    </picture>
+
+    <h1>reproduzindo audio</h1>
+    <p>vamos reproduzir um audio</p>
+    <audio src="midia/droptapes.mp3" controls autoplay></audio>
+
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/droptapes.mp3" type="audio/mpeg">
+    </audio>
+    <p>caso não tenha como o arquivo ser reproduzido é só falar pra fazer <a href="midia/droptapes.mp3" download="droptapes">dowload</a></p>
+</body>
+</html>
