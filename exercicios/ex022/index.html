@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de imagem de fundo</title>
+    <style>
+        
+        body {
+            background-image: url(img/pattern001.png);
+        }
+
+        div.quadrado {
+            display: inline-block;
+            background-color: lightblue;
+            border-radius: 10px;
+            border: 2px solid black;
+            margin: 6px;
+            width: 300px;
+            height: 300px;
+        }
+        
+        div#q1 {
+            background-color: aqua;
+        }
+
+        div#q2 {
+            background-image: linear-gradient(to bottom, black, yellow);
+            
+        }
+        
+        div#q3 {
+            background-image: url(img/8.png);
+            background-size: 300px 300px;
+        }
+
+        div#q4 {
+            background-image: url(https://i.pinimg.com/564x/16/03/f1/1603f1013aed303a942364990b6683a8.jpg);
+            background-size: 310px;
+        }
+        
+        div#q1 > a {
+            display: block;
+            text-decoration: none;
+            margin: auto;
+            border: 2px solid rgb(252, 0, 0);
+            text-align: center;
+            width: 200px; color: rgb(255, 21, 21);
+        }
+        
+        div#q2 > a {
+            display: block;
+            text-decoration: none;
+            margin: auto;
+            border: 2px solid rgb(150, 122, 122);
+            text-align: center;
+            width: 200px; color: rgb(255, 255, 255);
+        }
+
+        div#q3 > a {
+            display: block;
+            text-decoration: none;
+            margin: auto;
+            border: 2px solid black;
+            text-align: center;
+            width: 200px; color: black;
+        }
+        
+        div#q4 > a {
+            display: block;
+            text-decoration: none;
+            margin: auto;
+            border: 2px solid rgba(255, 0, 0, 0.445);
+            text-align: center;
+            width: 200px; color: rgba(197, 3, 3, 0.582);
+        }
+
+
+        </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+        <a href="fundo4.html"><h1>pág 3</h1></a>
+        
+    </div>
+    <div class="quadrado" id="q2">
+        <a href="fundo3.html"><h1>pág 2</h1></a>
+    </div>
+    <div class="quadrado" id="q3">
+        <a href="fundo002.html"><h1>proxima pág</h1></a>
+    </div>
+    <div class="quadrado" id="q4">
+        <a href="fundo5.html"><h1>pag 4</h1></a>
+    </div>
+
+</body>
+</html>
